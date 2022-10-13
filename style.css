@@ -9,3 +9,10 @@
     font-family: fantasy;
     font-size: 30px;
 }
+.Green{
+    background-color: green;
+}
+.Orange{
+    background-color: orange;
+    color: blue;
+}
