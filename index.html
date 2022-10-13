@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Ejercicio JavaScript</title>
+    <title>Ejercicio 3 JavaScript</title>
 </head>
 <body>
-    <h1>EJERCICIO JAVASCRIPT - CURSO JOSE OJEDA</h1>
-    <p>Parrafo 1</p>
-    <p class="parrafo2">Parrafo 2 - con clase</p>
-    <p id="parrafo3">Este es el Parrafo n°3 - con identificador</p>
+    <form id="Formulario">
+        <h1>CALCULADORA DE PRECIO CON IVA</h1>
+        <h2>Base Imponible</h2>
+        <input type="number" name="baseimponible" id="BaseImponible" value=0><br>
+        <h2>IVA %</h2>
+        <input type="number" name="iva" id="Iva" value=0><br>
+        <button type="button" onclick="multiplicar()">CALCULAR</button>
+        <h2>TOTAL</h2>
+        <input type="text" name="total" id="Total" readonly><br>
+    </form>
     <script src="./script.js"></script>
 </body>
 </html>
